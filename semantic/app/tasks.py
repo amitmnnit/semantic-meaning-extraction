@@ -1,4 +1,5 @@
 import requests
+from utils import freebase_search
 
 tweet = 'Deepika Padukone portrays the titular protagonist, a Bengali architect living in New Delhi, and Amitabh Bachchan plays her hypochondriac father'
 
@@ -18,6 +19,5 @@ class NGrams(object):
 		tweet = self.tweet.split()
 		trigrams = [word+' '+tweet[i+1]+' '+tweet[i+2] for i, word in enumerate(tweet) if i<len(tweet)-2]
 		return trigrams
-
 
 		
