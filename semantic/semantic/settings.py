@@ -100,3 +100,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#Twitter API Outh Details
+CONSUMER_KEY = '6ZvwrVFsA17T6TltiiM5W8KYU'
+CONSUMER_SECRET = 'C8vi78ChESNUrdl3Yb7At9aYOoyCZPM4StND0R7gBLruxEkcpF'
