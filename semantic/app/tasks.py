@@ -20,4 +20,4 @@ class NGrams(object):
 		trigrams = [word+' '+tweet[i+1]+' '+tweet[i+2] for i, word in enumerate(tweet) if i<len(tweet)-2]
 		return trigrams
 
-		
+
