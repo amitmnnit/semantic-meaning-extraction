@@ -16,3 +16,4 @@ class MyStreamListener(tweepy.StreamListener):
 def get_tweet_stream():
 	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 	
+	

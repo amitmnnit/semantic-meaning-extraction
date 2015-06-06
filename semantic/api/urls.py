@@ -7,6 +7,7 @@ urlpatterns = patterns('',
     #Auth
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^trend/$', views.TweetTrend.as_view()),
+    url(r'^keywords/relation/$', views.KeywordRelations.as_view()),
 
     )
 
