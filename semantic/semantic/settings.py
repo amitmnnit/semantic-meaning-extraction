@@ -104,3 +104,6 @@ STATIC_URL = '/static/'
 #Twitter API Outh Details
 CONSUMER_KEY = '6ZvwrVFsA17T6TltiiM5W8KYU'
 CONSUMER_SECRET = 'C8vi78ChESNUrdl3Yb7At9aYOoyCZPM4StND0R7gBLruxEkcpF'
+
+#Google App secret
+API_KEY = 'AIzaSyB2zRVxAnO4sBGH7CiWS9ImM4gYiLCEmMQ'
